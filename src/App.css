@@ -1,0 +1,153 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css";
+
+body, #ProductionSection{
+  margin:0;
+  padding: 0;
+}
+
+#Background{
+  min-height: 96%;
+  min-width: 100%;
+  background-image: url('../public/logo.png');
+  background-color: #353B3F;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: 700px 600px;
+  filter: blur(5px);
+  transform: scale(1.1);
+  position: absolute;
+}
+
+#MoviesSection{
+  display: grid;
+  grid-template-columns: 2fr 7fr;
+}
+
+#MoviesList{
+  overflow: auto;
+  height: 100vh;
+}
+
+.formSearch{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.search{
+  width: 250px;
+  height: 30px;
+  border-radius: 20px;
+  z-index: 6;
+}
+
+
+#MoviesCard{
+  background-size: cover;
+}
+
+#MoviesCardPicture , #MoviePictures{
+  filter:blur(3px);
+  background-image: url('../public/NotFound.jpeg');
+}
+
+#MovieDetails{
+  position: relative;
+  color:white;
+  margin-top: 150px;
+  margin-left: 50px;
+}
+
+#DetailsCard{
+  background-color: #FFFAFA;
+  width: 900px;
+  height: 505px;
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+}
+
+#DetailsPictures, #DefaultPictures{
+  position: absolute;
+  background-image: url('../public/NotFound.jpeg');
+  top: -30px;
+  left:30px;
+  width: 500px;
+  height: 350px;
+  border-radius: 2px;
+  box-shadow: 5px 5px 25px black;
+}
+
+#TitleDetails{
+  margin-top: 340px;
+  margin-left: 50px;
+  font-size: 3em;
+}
+
+.subtitle{
+  margin-left: 50px;
+}
+
+#top{
+  height: 10vh;
+}
+
+#Release{
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+#OverviewDetails{
+  overflow: auto;
+  height: 24vh;
+  border-top: 2px solid #03D38E;
+}
+
+#ProductionContainer{
+  width:312px;
+  white-space: nowrap;
+  overflow:hidden;
+}
+
+#marquee{
+  display:block;
+  position:relative;
+  width:500px;
+  animation: slide 10s linear infinite;
+  }
+
+#ProductionPictures{
+  width: 80px;
+  height: 80px;
+  margin-right: 20px;
+  float:left;
+  object-fit: contain;
+}
+
+@keyframes slide {
+  from {
+    transform: translatex(100%)
+  }
+  to {
+    transform: translatex(-100%)
+  }
+}
+
+#infoSection{
+  display: flex;
+  justify-content: space-around;
+  color:white;
+  margin-top:10px;
+}
+
+h4{
+  border: 3px solid #03D38E;
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  text-align: center;
+  padding-top: 23px;
+}
+
+#openModal{
+  margin-top:15px;
+}

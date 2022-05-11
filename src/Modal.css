@@ -1,0 +1,39 @@
+.modalBackground{
+    width: 63vw;
+    height: 70vh;
+    top: -50px;
+    left:0px;
+    z-index:6;
+    background-color: #FFFAFA;
+    position: absolute;
+    border-radius: 5px;
+}
+
+.modalContainer{
+    width: 62vw;
+    height: 70vh;
+    overflow: auto;
+}
+
+#headerCast{
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+}
+
+#TitleCasting{
+    text-align: center;
+}
+.bodyCast{
+    display: grid;
+    grid-template-columns: repeat(5,2fr);
+    margin-left:50px;
+}
+
+#CardCast{
+    margin: 10px;
+}
+#CastPictures{
+    width: 100px;
+    height: 150px;
+    background-image: url('../public/NotFound.jpeg');
+}
