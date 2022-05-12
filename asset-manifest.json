@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Fleet-Tv/static/css/main.eee6fc7f.css",
+    "main.js": "/Fleet-Tv/static/js/main.76d97072.js",
+    "static/js/787.dd6e3111.chunk.js": "/Fleet-Tv/static/js/787.dd6e3111.chunk.js",
+    "static/media/logo.png": "/Fleet-Tv/static/media/logo.333063df8bb3fea3e7ff.png",
+    "index.html": "/Fleet-Tv/index.html",
+    "main.eee6fc7f.css.map": "/Fleet-Tv/static/css/main.eee6fc7f.css.map",
+    "main.76d97072.js.map": "/Fleet-Tv/static/js/main.76d97072.js.map",
+    "787.dd6e3111.chunk.js.map": "/Fleet-Tv/static/js/787.dd6e3111.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eee6fc7f.css",
+    "static/js/main.76d97072.js"
+  ]
+}
