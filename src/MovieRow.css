@@ -1,0 +1,5 @@
+#MoviesCardPicture , #MoviePictures{
+  filter:blur(3px);
+  background-image: url('../public/NotFound.jpeg');
+  filter : brightness(30%);
+}
